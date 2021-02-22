@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: 'Sacramento', cursive; 
+}
+
+section {
+    width: 100%;
+    height: 800px;
+}
+
+#apps {
+    background-color: #99E0F6;
+}
+
+#games {
+    background-color: #F699D5;
+}
+
+#chatbot {
+    background-color: #F5F68C;
+}
+
+.line {
+    height: 6px;
+    width: 100px;
+    margin: 8px auto;
+    background-color: black;
+}
+
+img {
+    transition: transform 0.2s;
+    height: 300px;
+    width: 400px;
+}
+
+img:hover {
+    transform: scale(1.4);
+}
